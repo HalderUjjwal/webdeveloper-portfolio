@@ -1,5 +1,6 @@
 /* common shared styles */
 body{
+    font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 .text-orange{
@@ -14,7 +15,7 @@ body{
     font-weight: 700;
     padding: 15px 35px;
 }
-.section-tittle{
+.section-title{
     color: #181818;
     text-align: center;
     font-size: 35px;
@@ -32,10 +33,10 @@ nav{
    align-items: center;
    margin: 0 200px;
 }
-.nav-tittle{
+.nav-title{
     color: #181818;
-    font-size: 45px;
-    font-weight: 800;
+    font-size: 35px;
+    font-weight: 700;
 }
 
 nav > ul{
@@ -70,21 +71,23 @@ nav a{
     width: 500px;
 }
 .banner-greeting{
-    font-size: 45px;
+    font-size: 35px;
     color: #474747;
     margin-bottom: 0;
 }
-.banner-tittle{
-    font-size: 75px;
+.banner-title{
+    font-size: 65px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
 }
 .banner-description{
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    font-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 /* main section styles */
 main{
@@ -105,4 +108,25 @@ main{
 }
 .about-info{
     text-align: center;
+}
+.info-title{
+    color: #757575;
+}
+/* skills related styles */
+
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skills-container{
+    display:flex
+}
+.skill{
+    padding: 30px;
+    gap: 24px;
+}
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
 }
